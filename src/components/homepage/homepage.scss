@@ -1,9 +1,67 @@
+
 .homepage {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px 80px;
   }
+
+  .header {
+        height: 117vh;
+        width: 100vw;
+        background-image: url(../../img/not-normal.jpg);
+        background-color: black;
+        background-size: cover;
+        background-position: top;
+        position: relative;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 73vh, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 120% 73vh, 0 84%);
+        
+    .header__text-box {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        }
+    
+    .heading-primary{
+        color: white;
+        text-transform: uppercase;
+        backface-visibility: hidden;
+        margin-bottom: 6rem;
+        transition: transform 2s ;
+        // neon text styling
+        text-shadow:
+          0 0 5px #fff,
+          0 0 10px #fff,
+          0 0 20px #fff,
+          0 0 40px rgb(161, 7, 146),
+          0 0 80px rgb(161, 7, 146),
+          0 0 90px rgb(161, 7, 146),
+          0 0 100px rgb(161, 7, 146),
+          0 0 150px rgb(161, 7, 146);
+        // end neon text styling
+    
+        &--main{
+            display: block;
+            font-size: 6rem;
+            font-weight: 400;
+            letter-spacing: 3.5rem;
+            animation: moveInLeft 2s;
+        }
+        
+        &--sub{
+            display: block;
+            font-size: 6rem;
+            font-weight: 400px;
+            letter-spacing: 3.5rem;
+            animation: moveInRight 2s;
+    
+        }
+    }
+
+    }
   
   .directory-menu {
     width: 100%;
