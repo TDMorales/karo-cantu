@@ -30,7 +30,6 @@
         text-transform: uppercase;
         backface-visibility: hidden;
         margin-bottom: 6rem;
-        transition: transform 2s ;
         // neon text styling
         text-shadow:
           0 0 5px #fff,
@@ -107,6 +106,28 @@
       .subtitle {
         font-weight: lighter;
         font-size: 16px;
+      }
+    }
+
+    @keyframes moveInLeft {
+      0% {
+          opacity: 0;
+          transform: translateX(-10rem);
+      }
+      100% {
+          opacity: 1;
+          transform: translate(0);
+      }
+    }
+
+    @keyframes moveInRight {
+      0% {
+          opacity: 0;
+          transform: translateX(10rem);
+      }  
+      100% {
+          opacity: 1;
+          transform: translate(0);
       }
     }
   }

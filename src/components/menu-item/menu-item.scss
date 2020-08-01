@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: center;
   border: 1px solid black;
+  border-radius: 5px;
   margin: 0 7.5px 15px;
   overflow: hidden;
 
@@ -15,6 +16,7 @@
     & .background-image{
       transform: scale(1.1);
       transition: transform 3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+      
     }
 
     & .content{
