@@ -5,8 +5,8 @@ import './homepage.scss'
 
 const HomePage = () => (
     <div className='homepage'>
-        <header className="header">
-            <div className="header__text-box">
+        <header className="homepage__header">
+            <div className="homepage__header--text-box">
                 <div className="heading-primary">
                     <span className="heading-primary--main">Karo</span>
                     <span className="heading-primary--sub">Cantú</span>

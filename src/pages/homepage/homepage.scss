@@ -6,7 +6,7 @@
     padding: 20px 80px;
   }
 
-  .header {
+  .homepage__header {
         height: 117vh;
         width: 100vw;
         background-image: url(../../img/not-normal.jpg);
@@ -17,7 +17,7 @@
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 73vh, 0 100%);
         clip-path: polygon(0 0, 100% 0, 120% 73vh, 0 84%);
         
-    .header__text-box {
+    .homepage__header--text-box {
         position: absolute;
         top: 35%;
         left: 50%;
@@ -29,7 +29,7 @@
         color: white;
         text-transform: uppercase;
         backface-visibility: hidden;
-        margin-bottom: 6rem;
+        margin-bottom: 14rem;
         // neon text styling
         text-shadow:
           0 0 5px #fff,

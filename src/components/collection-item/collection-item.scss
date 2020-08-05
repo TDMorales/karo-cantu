@@ -4,6 +4,7 @@
     flex-direction: column;
     height: 350px;
     align-items: center;
+    transition: all .2s;
 
     .image {
         width: 100%;
@@ -11,6 +12,16 @@
         background-size: cover;
         background-position: center;
         margin-bottom: 5px;
+
+        &:hover {
+            transform: translateY(-3px) scale(1.1);
+            box-shadow: 0 1rem 2rem rgba(black,.2);
+    
+            &::after{
+                transform: scaleX(1.5) scaleY(1.6);
+                opacity: 0;
+            }
+        }    
     }
 
     .collection-footer {
@@ -29,5 +40,6 @@
         .price {
             width: 5%;
         }
-    }    
+    }   
+
 }
