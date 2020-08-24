@@ -28,14 +28,14 @@ const ShopData = [
                 price: 25
             },
             {
-                id: 4,
+                id: 3,
                 name: "Orville Peck",
                 imageUrl: `${orville_peck_1}`,
                 size: '15 x 30',
                 price: 25
             },
             {
-                id: 6,
+                id: 4,
                 name: "Beach Fossils",
                 imageUrl: `${beach_fossils_1}`,
                 size: '15 x 30',
@@ -49,28 +49,28 @@ const ShopData = [
         routeName: 'pinches-feelings',
         items: [
             {
-                id: 1,
+                id: 5,
                 name: "Not Normal",
                 imageUrl: `${not_normal}`,
                 size: '15 x 30',
                 price: 25
             },
             {
-                id: 2,
+                id: 6,
                 name: "I Just Wanna Hug My Friends",
                 imageUrl: `${i_just_wanna_hug_my_friends}`,
                 size: '15 x 30',
                 price: 25
             },
             {
-                id: 3,
+                id: 7,
                 name: "Not Here To Please You",
                 imageUrl: `${not_here_to_please_you}`,
                 size: '15 x 30',
                 price: 25
             },
             {
-                id: 4,
+                id: 8,
                 name: "Worst Of Myself",
                 imageUrl: `${worst_of_myself}`,
                 size: '15 x 30',
