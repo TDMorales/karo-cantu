@@ -7,8 +7,8 @@ import i_just_wanna_hug_my_friends from '../../img/pinchesFeelings/i_just_wanna_
 import not_here_to_please_you from '../../img/pinchesFeelings/not_here_to_please_you.jpg'
 import worst_of_myself from '../../img/pinchesFeelings/worst-of-myself.jpg'
 
-const ShopData = [
-    {
+const SHOP_DATA = {
+    photography: {
         id: 1,
         title: 'Photography',
         routeName: 'photography',
@@ -43,7 +43,7 @@ const ShopData = [
             }
         ]
     },
-    {
+    pinchesfeelings: {
         id: 2,
         title: "Pinches Feelings",
         routeName: 'pinches-feelings',
@@ -78,6 +78,6 @@ const ShopData = [
             },
         ]
     }
- ]
+};
 
- export default ShopData;
+ export default SHOP_DATA;
