@@ -12,9 +12,9 @@
         background-image: url(../../img/not-normal.jpg);
         background-color: black;
         background-size: cover;
-        background-position: top;
+        background-position: 50% 5%;
         position: relative;
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 73vh, 0 100%);
+        -webkit-clip-path: polygon(0 0, 100% 0, 120% 73vh, 0 84%);
         clip-path: polygon(0 0, 100% 0, 120% 73vh, 0 84%);
         
     .homepage__header--text-box {
